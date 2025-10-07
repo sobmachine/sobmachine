@@ -45,7 +45,7 @@ I’m **bloom**; a writer, creative technologist, and dreamer who blends imagina
 
 ## GitHub Stats
 
-[![GitHub stats](https://github-readme-stats.vercel.app/api?username=vbloom-x3&show_icons=true&theme=rose_pine)](https://github.com/vbloom-x3)  
+[![GitHub stats](https://github-readme-stats.vercel.app/api?username=sobmachine&show_icons=true&theme=rose_pine)](https://github.com/sobmachine)  
 
 ---
 
