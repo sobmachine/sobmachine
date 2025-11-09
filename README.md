@@ -50,7 +50,6 @@ I’m **bloom**; a writer, creative technologist, and dreamer who blends imagina
 ---
 
 ## Connect With Me
-- Email: vbloomv@proton.me
 - Portfolio/Website: WIP
 
 ---
