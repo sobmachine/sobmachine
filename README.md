@@ -21,7 +21,7 @@ I’m **bloom**; a writer, creative technologist, and dreamer who blends imagina
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-C8A2C8.svg?logo=tailwindcss&logoColor=white)
 
 
-![C](https://img.shields.io/badge/C-C8A2C8.svg?logo=node.js&logoColor=white)
+![C](https://img.shields.io/badge/C-C8A2C8.svg?logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-C8A2C8.svg?logo=python&logoColor=white)
 
 #### Databases
