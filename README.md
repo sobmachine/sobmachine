@@ -13,31 +13,31 @@ I’m **bloom**; a writer, creative technologist, and dreamer who blends imagina
 
 ## Technical Skills
 
-## Languages & Frameworks
+### Languages & Frameworks
 
-### Frontend
+#### Frontend
 ![HTML](https://img.shields.io/badge/HTML-C8A2C8.svg?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-C8A2C8.svg?logo=css3&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-C8A2C8.svg?logo=javascript&logoColor=white)
 ![React](https://img.shields.io/badge/React-C8A2C8.svg?logo=react&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-C8A2C8.svg?logo=tailwindcss&logoColor=white)
 
-### Backend
+#### Backend
 ![Node.js](https://img.shields.io/badge/Node.js-C8A2C8.svg?logo=node.js&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-C8A2C8.svg?logo=python&logoColor=white)
 
-### Databases
+#### Databases
 ![SQLite](https://img.shields.io/badge/SQLite-C8A2C8.svg?logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-C8A2C8.svg?logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-C8A2C8.svg?logo=mongodb&logoColor=white)
 
-### Other
+#### Other
 ![Markdown](https://img.shields.io/badge/Markdown-C8A2C8.svg?logo=markdown&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-C8A2C8.svg?logo=latex&logoColor=white)
 
 ---
 
-## Tools & Platforms
+### Tools & Platforms
 ![Git](https://img.shields.io/badge/Git-C8A2C8.svg?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-C8A2C8.svg?logo=github&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-C8A2C8.svg?logo=linux&logoColor=white)
