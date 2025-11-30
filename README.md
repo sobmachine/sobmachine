@@ -32,8 +32,7 @@ I’m **bloom**; a writer, creative technologist, and dreamer who blends imagina
 ![Git](https://img.shields.io/badge/Git-C8A2C8.svg?logo=git&logoColor=white)
 ![GitHub](https://img.shields.io/badge/GitHub-C8A2C8.svg?logo=github&logoColor=white)
 ![Linux](https://img.shields.io/badge/Linux-C8A2C8.svg?logo=linux&logoColor=white)
-![Unix](https://img.shields.io/badge/Unix-C8A2C8.svg?logo=unix&logoColor=white)
-![VSCode](https://img.shields.io/badge/VS%20Code-C8A2C8.svg?logo=visual-studio-code&logoColor=white)
+![VSCode](https://img.shields.io/badge/Vim-C8A2C8.svg?logo=vim&logoColor=white)
 ![Figma](https://img.shields.io/badge/Figma-C8A2C8.svg?logo=figma&logoColor=white)
 ![VLC](https://img.shields.io/badge/VLC-C8A2C8.svg?logo=vlc-media-player&logoColor=white)
 ---
