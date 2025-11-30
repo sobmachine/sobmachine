@@ -13,23 +13,16 @@ I’m **bloom**; a writer, creative technologist, and dreamer who blends imagina
 
 ### Languages & Frameworks
 
-#### Frontend
 ![HTML](https://img.shields.io/badge/HTML-C8A2C8.svg?logo=html5&logoColor=white)
 ![CSS](https://img.shields.io/badge/CSS-C8A2C8.svg?logo=css&logoColor=white)
 ![JavaScript](https://img.shields.io/badge/JavaScript-C8A2C8.svg?logo=javascript&logoColor=white)
 ![React](https://img.shields.io/badge/React-C8A2C8.svg?logo=react&logoColor=white)
 ![TailwindCSS](https://img.shields.io/badge/TailwindCSS-C8A2C8.svg?logo=tailwindcss&logoColor=white)
-
-
 ![C](https://img.shields.io/badge/C-C8A2C8.svg?logo=c&logoColor=white)
 ![Python](https://img.shields.io/badge/Python-C8A2C8.svg?logo=python&logoColor=white)
-
-#### Databases
 ![SQLite](https://img.shields.io/badge/SQLite-C8A2C8.svg?logo=sqlite&logoColor=white)
 ![PostgreSQL](https://img.shields.io/badge/PostgreSQL-C8A2C8.svg?logo=postgresql&logoColor=white)
 ![MongoDB](https://img.shields.io/badge/MongoDB-C8A2C8.svg?logo=mongodb&logoColor=white)
-
-#### Other
 ![Markdown](https://img.shields.io/badge/Markdown-C8A2C8.svg?logo=markdown&logoColor=white)
 ![LaTeX](https://img.shields.io/badge/LaTeX-C8A2C8.svg?logo=latex&logoColor=white)
 
