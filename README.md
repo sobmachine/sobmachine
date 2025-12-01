@@ -1,8 +1,6 @@
 I’m **bloom**; a writer, creative technologist, and dreamer who blends imagination, music, and code to build meaningful things.  
 
 <!--START_SONG-->
-### 🎧 Top Song Today
-**Lost In Space - Original Mix**
 <!--END_SONG-->
 
 ---
