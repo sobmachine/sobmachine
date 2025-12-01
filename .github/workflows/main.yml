@@ -1,0 +1,64 @@
+name: Update Top Song
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"  # every 6 hours
+  workflow_dispatch:
+
+jobs:
+  update:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout repository
+      - uses: actions/checkout@v4
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 2: Setup Python
+      - uses: actions/setup-python@v4
+        with:
+          python-version: '3.x'
+
+      # Step 3: Install dependencies
+      - run: pip install requests
+
+      # Step 4: Run your Python script to update TOP_SONG.md
+      - run: python update_song.py
+        env:
+          SPOTIFY_CLIENT_ID: ${{ secrets.SPOTIFY_CLIENT_ID }}
+          SPOTIFY_CLIENT_SECRET: ${{ secrets.SPOTIFY_CLIENT_SECRET }}
+          SPOTIFY_REFRESH_TOKEN: ${{ secrets.SPOTIFY_REFRESH_TOKEN }}
+
+      # Step 5: Safely update README.md using awk
+      - name: Update README safely
+        run: |
+          awk "BEGIN {while((getline line < \"TOP_SONG.md\")>0) songs[++i]=line}
+               /<!--START_SONG-->/ {print; for(j=1;j<=i;j++) print songs[j]; inblock=1; next}
+               /<!--END_SONG-->/ {inblock=0}
+               !inblock {print}" README.md > README.tmp && mv README.tmp README.md
+
+      # Step 6: Commit changes
+      - name: Commit changes
+        run: |
+          git config user.name github-actions
+          git config user.email actions@github.com
+          git add README.md TOP_SONG.md
+          git diff --quiet || git commit -m "Update top song"
+
+      # Step 7: Push changes safely (handles branch protection)
+      - name: Push changes
+        run: |
+          # Attempt direct push
+          git push https://x-access-token:${{ secrets.GITHUB_TOKEN }}@github.com/${{ github.repository }}.git HEAD:main || \
+          # If blocked (e.g., branch protection), create/update a PR
+          echo "Direct push failed. Creating a pull request..."
+          git checkout -b update-top-song || git checkout update-top-song
+          git push -u origin update-top-song --force
+      - name: Create Pull Request if needed
+        if: failure() || github.event_name == 'schedule' || github.event_name == 'workflow_dispatch'
+        uses: peter-evans/create-pull-request@v5
+        with:
+          branch: update-top-song
+          title: "Update Top Song"
+          body: "Automated update of top song"
+          base: main
