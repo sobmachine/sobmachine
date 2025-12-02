@@ -2,7 +2,7 @@ I’m **bloom**; a writer, creative technologist, and dreamer who blends imagina
 
 <!--START_SONG-->
 <!--END_SONG-->
-![Alt text for contributions chart](contrib.jpg)
+
 ---
 
 ## About Me
